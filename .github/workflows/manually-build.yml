@@ -118,7 +118,7 @@ jobs:
       - run: apt -y update
       - run: apt -y install curl
 
-      - run: curl -LO https://raw.githubusercontent.com/leleliu008/ndk-pkg/master/ndk-pkg
+      - run: curl -LO https://raw.githubusercontent.com/dyglcc/ndk-pkg/master/ndk-pkg
       - run: chmod +x ndk-pkg
 
       - run: ./ndk-pkg about
